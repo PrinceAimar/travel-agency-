@@ -41,10 +41,14 @@
         padding: 5px 8px;
         font-size: .8rem;
         background-color: rgba($mainBlue, .5);
+        
         @mixin atMedium {
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
